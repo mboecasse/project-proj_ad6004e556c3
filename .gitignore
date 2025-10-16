@@ -1,0 +1,78 @@
+public/uploads/
+temp/
+tmp/
+
+# Database dumps and backups
+*.dump
+backups/
+db-data/
+mongodb-data/
+*.sql
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# DEVELOPMENT ENVIRONMENT
+# ============================================================================
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# ============================================================================
+# OPTIONAL PROCESS MANAGEMENT
+# ============================================================================
+
+# PM2 process manager
+.pm2/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================================================
+# TESTING
+# ============================================================================
+
+# Test files and directories
+.jest/
+test-results/
+
+# ============================================================================
+# MISCELLANEOUS
+# ============================================================================
+
+# Lock files (keep only one package manager)
+# Uncomment the ones you don't use:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
