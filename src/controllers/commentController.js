@@ -209,7 +209,7 @@ const updateComment = async (req, res, next) => {
     }
 
     // Authorization check
-    const userId = req.user?.id || req.user?._id;
+    const userId = req.user.id || req.user._id;
     const userRole = req.user?.role;
 
     if (!userId || !isAuthorized(comment, userId.toString(), userRole)) {

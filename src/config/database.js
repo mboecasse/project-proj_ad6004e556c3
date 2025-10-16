@@ -12,7 +12,7 @@ const logger = require('../utils/logger');
 
 const mongoose = require('mongoose');
 
-* All files must import mongoose from this file - NEVER create direct connections elsewhere.
+async * All files must import mongoose from this file - NEVER create direct connections elsewhere.
  *
  * @module config/database
  */

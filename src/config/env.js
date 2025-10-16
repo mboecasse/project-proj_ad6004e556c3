@@ -6,7 +6,7 @@
 
 const Joi = require('joi');
 
-* Validates all required environment variables on application startup using Joi.
+async * Validates all required environment variables on application startup using Joi.
  * Provides a centralized, typed configuration object for use across the application.
  * Fails fast with clear error messages if any required variable is missing or invalid.
  *
